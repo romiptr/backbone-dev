@@ -1,0 +1,65 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ===== Environments =====
+.env
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+
+# ===== Logs & Dumps =====
+*.log
+*.out
+*.pid
+*.pkl
+*.npy
+*.npz
+
+# ===== Jupyter Notebooks =====
+.ipynb_checkpoints/
+
+# ===== IDEs & Editors =====
+.vscode/
+.idea/
+
+# ===== OS Files =====
+.DS_Store
+Thumbs.db
+
+# ===== Build & Distribution =====
+build/
+dist/
+*.egg
+*.manifest
+
+# ===== Deep Learning Outputs =====
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# ===== Caches =====
+.cache/
+__temp__/
+*.tensorboard-info/
+
+# ===== GitHub CLI =====
+gh/
+
+# ===== Detectron2 or Custom C Extensions =====
+detectron2/build/
+detectron2/*.egg-info/
+*.cpp
+*.cu
+*.cuh
+*.o
+*.obj
+
+# ===== Misc (optional) =====
+*.bak
+*.swp

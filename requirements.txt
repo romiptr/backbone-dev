@@ -1,0 +1,6 @@
+numpy
+Pillow==9.5.0
+isort!=5.13.0
+mock
+requests
+git+https://github.com/facebookresearch/detectron2.git@v0.6
